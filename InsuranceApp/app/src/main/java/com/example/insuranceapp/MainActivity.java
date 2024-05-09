@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 // logged in successfully
                 Toast.makeText(MainActivity.this, "Logged in Successfully", Toast.LENGTH_LONG).show();
 
-                startActivity(new Intent(MainActivity.this, Clam.class));// Navigate to a new Page
+                startActivity(new Intent(MainActivity.this, Request.class));// Navigate to a new Page
             } else {
                 Toast.makeText(MainActivity.this, "Incorrect Credentials", Toast.LENGTH_LONG).show();
             }

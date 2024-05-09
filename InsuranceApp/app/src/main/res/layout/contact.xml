@@ -2,10 +2,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/imageView7"
@@ -17,106 +15,102 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.515"
-        app:srcCompat="@drawable/bgmain" />
+        app:srcCompat="@drawable/bgreq" />
 
-    <EditText
-        android:id="@+id/regtext1"
-        android:layout_width="220dp"
+    <TextView
+        android:id="@+id/CTV1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="text"
+        android:text="Phone: 9874563210"
         android:textColor="@color/black"
-        android:textColorHint="#807070"
-        android:backgroundTint="@color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.239"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.433" />
+        app:layout_constraintVertical_bias="0.250" />
 
-    <EditText
-        android:id="@+id/regtext2"
-        android:layout_width="220dp"
+    <TextView
+        android:id="@+id/CTV2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:ems="10"
-        android:hint="Vehicle Number"
-        android:inputType="text"
+        android:text="Email: xyz@gmail.com"
         android:textColor="@color/black"
-        android:textColorHint="#807070"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.256"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.48" />
+        app:layout_constraintVertical_bias="0.300" />
 
-
-    <EditText
-        android:id="@+id/regemail"
-        android:layout_width="220dp"
+    <TextView
+        android:id="@+id/CTV3"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
+        android:text="Address: xyz street 10/123 R.T.Nagar"
         android:textColor="@color/black"
-        android:textColorHint="#807070"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.527" />
+        app:layout_constraintVertical_bias="0.351" />
 
-    <EditText
-        android:id="@+id/regpass"
-        android:layout_width="220dp"
+    <TextView
+        android:id="@+id/CTV4"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:drawableTint="#050505"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
+        android:text="Follow us on:"
         android:textColor="@color/black"
-        android:textColorHint="#807070"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.574"
-        tools:ignore="TouchTargetSizeCheck" />
+        app:layout_constraintVertical_bias="0.4" />
 
-    <Button
-        android:id="@+id/loginbackbtn"
-        android:layout_width="220dp"
-        android:layout_height="40dp"
-        android:backgroundTint="#1C85CC"
-        android:text="Login again"
+    <TextView
+        android:id="@+id/CTV5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=". instagram"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.702" />
+        app:layout_constraintVertical_bias="0.431" />
 
-    <Button
-        android:id="@+id/regbtn"
-        android:layout_width="110dp"
-        android:layout_height="40dp"
-        android:backgroundTint="#1C85CC"
-        android:text="Register"
+    <TextView
+        android:id="@+id/CTV6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=". facebook"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.441"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.64" />
+        app:layout_constraintVertical_bias="0.468" />
 
-
-
-
-
-
+    <TextView
+        android:id="@+id/CTV7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=". tweeter"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.426"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.508" />
 </androidx.constraintlayout.widget.ConstraintLayout>

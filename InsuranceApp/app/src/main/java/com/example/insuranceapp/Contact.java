@@ -1,21 +1,19 @@
 package com.example.insuranceapp;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 
 
-public class Clam extends AppCompatActivity implements View.OnClickListener  {
+public class Contact extends AppCompatActivity implements View.OnClickListener  {
 
     //Button butn1,butn2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.clam);
+        setContentView(R.layout.contact);
 
 
 //        butn1 = findViewById(R.id.loginbackbtn);
